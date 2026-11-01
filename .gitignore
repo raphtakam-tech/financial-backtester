@@ -1,0 +1,252 @@
+# =======================
+# ROOT LEVEL
+# =======================
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Environment variables
+
+.env.local
+.env.development
+.env.production
+
+# API Keys (important for Alpha Vantage)
+*apikey*
+*api-key*
+appsettings.Development.json
+appsettings.Production.json
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =======================
+# BACKEND (C# / .NET)
+# =======================
+
+# Build results
+backend/BacktestingAPI/bin/
+backend/BacktestingAPI/obj/
+backend/BacktestingAPI/[Dd]ebug/
+backend/BacktestingAPI/[Rr]elease/
+backend/BacktestingAPI/x64/
+backend/BacktestingAPI/x86/
+backend/BacktestingAPI/[Aa]rm/
+backend/BacktestingAPI/[Aa]rm64/
+backend/BacktestingAPI/bld/
+backend/BacktestingAPI/[Bb]in/
+backend/BacktestingAPI/[Oo]bj/
+backend/BacktestingAPI/[Ll]og/
+backend/BacktestingAPI/[Ll]ogs/
+
+# Visual Studio cache/options
+backend/BacktestingAPI/.vs/
+backend/BacktestingAPI/*.suo
+backend/BacktestingAPI/*.user
+backend/BacktestingAPI/*.userosscache
+backend/BacktestingAPI/*.sln.docstates
+
+# User-specific files
+backend/BacktestingAPI/*.rsuser
+backend/BacktestingAPI/*.suo
+backend/BacktestingAPI/*.user
+backend/BacktestingAPI/*.userosscache
+backend/BacktestingAPI/*.sln.docstates
+
+# Build Results
+backend/BacktestingAPI/*.[Cc]ache
+backend/BacktestingAPI/[Dd]ebug/
+backend/BacktestingAPI/[Rr]elease/
+backend/BacktestingAPI/x64/
+backend/BacktestingAPI/x86/
+backend/BacktestingAPI/[Ww][Ii][Nn]32/
+backend/BacktestingAPI/[Aa][Rr][Mm]/
+backend/BacktestingAPI/[Aa][Rr][Mm]64/
+backend/BacktestingAPI/bld/
+backend/BacktestingAPI/[Bb]in/
+backend/BacktestingAPI/[Oo]bj/
+backend/BacktestingAPI/[Ll]og/
+backend/BacktestingAPI/[Ll]ogs/
+
+# .NET Core
+backend/BacktestingAPI/project.lock.json
+backend/BacktestingAPI/project.fragment.lock.json
+backend/BacktestingAPI/artifacts/
+
+# ASP.NET Scaffolding
+backend/BacktestingAPI/ScaffoldingReadMe.txt
+
+# StyleCop
+backend/BacktestingAPI/StyleCopReport.xml
+
+# Files built by Visual Studio
+backend/BacktestingAPI/*_i.c
+backend/BacktestingAPI/*_p.c
+backend/BacktestingAPI/*_h.h
+backend/BacktestingAPI/*.ilk
+backend/BacktestingAPI/*.meta
+backend/BacktestingAPI/*.obj
+backend/BacktestingAPI/*.iobj
+backend/BacktestingAPI/*.pch
+backend/BacktestingAPI/*.pdb
+backend/BacktestingAPI/*.ipdb
+backend/BacktestingAPI/*.pgc
+backend/BacktestingAPI/*.pgd
+backend/BacktestingAPI/*.rsp
+backend/BacktestingAPI/*.sbr
+backend/BacktestingAPI/*.tlb
+backend/BacktestingAPI/*.tli
+backend/BacktestingAPI/*.tlh
+backend/BacktestingAPI/*.tmp
+backend/BacktestingAPI/*.tmp_proj
+backend/BacktestingAPI/*_wpftmp.csproj
+backend/BacktestingAPI/*.log
+backend/BacktestingAPI/*.tlog
+backend/BacktestingAPI/*.vspscc
+backend/BacktestingAPI/*.vssscc
+backend/BacktestingAPI/.builds
+backend/BacktestingAPI/*.pidb
+backend/BacktestingAPI/*.svclog
+backend/BacktestingAPI/*.scc
+
+# NuGet Packages
+backend/BacktestingAPI/*.nupkg
+backend/BacktestingAPI/*.snupkg
+backend/BacktestingAPI/**/packages/*
+backend/BacktestingAPI/!**/packages/build/
+backend/BacktestingAPI/*.nuget.props
+backend/BacktestingAPI/*.nuget.targets
+
+# NuGet Symbol Packages
+backend/BacktestingAPI/*.snupkg
+
+# SQLite Database (if storing locally)
+backend/BacktestingAPI/*.db
+backend/BacktestingAPI/*.db-shm
+backend/BacktestingAPI/*.db-wal
+backend/BacktestingAPI/*.sqlite
+backend/BacktestingAPI/*.sqlite3
+backend/BacktestingAPI/backtesting.db*
+
+# Entity Framework Migrations (keep the files but ignore backup)
+backend/BacktestingAPI/**/Migrations/*.Designer.cs.bak
+
+# Rider
+backend/BacktestingAPI/.idea/
+backend/BacktestingAPI/*.sln.iml
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+backend/BacktestingAPI/*.userprefs
+
+# =======================
+# FRONTEND (React / Node.js)
+# =======================
+
+# Dependencies
+frontend/.vite
+frontend/node_modules/
+frontend/.pnp
+frontend/.pnp.js
+
+# Testing
+frontend/coverage/
+frontend/.nyc_output/
+
+# Production build
+frontend/build/
+frontend/dist/
+frontend/.next/
+frontend/out/
+
+# Misc
+frontend/.DS_Store
+frontend/*.pem
+
+# Debug
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/lerna-debug.log*
+frontend/.pnpm-debug.log*
+
+# Vite
+frontend/dist-ssr
+frontend/*.local
+
+# Editor directories and files
+frontend/.vscode/*
+frontend/!.vscode/extensions.json
+frontend/.idea
+frontend/*.suo
+frontend/*.ntvs*
+frontend/*.njsproj
+frontend/*.sln
+frontend/*.sw?
+
+# Temporary files
+frontend/*.tmp
+frontend/*.temp
+
+# Cache
+frontend/.cache/
+frontend/.parcel-cache/
+frontend/.eslintcache
+
+# Storybook
+frontend/storybook-static/
+
+# =======================
+# DOCUMENTATION
+# =======================
+
+# Ignore generated documentation
+docs/api/
+*.pdf
+!Project*.pdf
+
+# =======================
+# VIDEO AND MEDIA
+# =======================
+
+# Large video files (but keep the final demo video)
+*.mov
+*.mp4
+*.avi
+!demo-video.mp4
+!final-demo.mp4
+
+# =======================
+# MISCELLANEOUS
+# =======================
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Compressed files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Test data
+test-data/
+mock-data/
+*.csv
+!sample-data.csv
+
+# Temporary directories
+temp/
+tmp/
+scratch/
